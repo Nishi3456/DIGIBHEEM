@@ -1,0 +1,147 @@
+body {
+    background-image: url("images/book1.jpg");
+    /* url("images/banner-img1.jpg") */
+    background-size: 100% 100%;
+    
+}
+
+.left {
+    /* border: 2px solid rgb(241, 3, 42); */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font: bolder;
+    color: rgb(9, 1, 0);
+
+}
+
+.left img {
+    width: 100px;
+}
+
+
+
+.mid {
+    /* border: 2px solid rgb(248, 248, 250); */
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    top: 30px;
+    background-color: rgba(53, 60, 5, 0.45);
+    border-radius: 0px;
+    opacity: 0.8;
+
+}
+
+p{
+    font-size: 50px;
+    font-family: cursive;
+    left: 60px;
+    font-weight: bolder;
+    color: black;
+    
+
+}
+
+.right {
+    position: absolute;
+    right: 20px;
+    
+    display: inline-block;
+    top: 20px;
+}
+
+.btn {
+    margin: 0px, 9px;
+    background-color: #090206;
+    color: rgb(249, 248, 248);
+    
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Belanosima;
+}
+
+.btn:hover {
+    background-color: rgb(10, 167, 39);
+}
+
+
+.container {
+    color: rgb(253, 252, 252);
+    width: 450px;
+    margin: 53px 219px;
+    padding: 61px 61px;
+    border: 5px solid rgba(9, 118, 154, 0.032);
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: rgba(5, 5, 5, 0.928);
+    /* height:50px; */
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+
+
+}
+
+input[type="submit"] {
+    background-color: #030e1e;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #000209;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[readonly] {
+    background-color: #eee;
+    cursor: not-allowed;
+}
